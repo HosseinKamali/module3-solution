@@ -1,0 +1,55 @@
+body{
+    font-size: 16px;
+    color: #fff ;
+    background-color: #8d8233;
+    font-family: cursive;
+}
+/** HEADER **/
+#header-nav{
+    background-color:#d6695a;
+    box-shadow: 1px 2px 4px rgb(104, 103, 103);
+}
+
+#brand{
+    font-weight: 800;
+}
+
+
+#navbarSupportedContent ul > li a:hover{
+    cursor: pointer;
+    opacity: .8;
+    
+
+}
+/** END HEADER **/
+
+#main-content div {
+background-color:#da8936;
+box-shadow: 1px 2px 4px rgb(104, 103, 103);
+}
+#main-content h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#main-content div h3{
+font-weight: 500;
+}
+#main-content div p{
+font-size: 14px;
+
+
+}
+
+
+
+
+
+
+@media (max-width:576px){
+    #main-content{
+        margin-right: 30px;
+        margin-left: 30px;
+        }
+        
+}
